@@ -5,7 +5,7 @@ import {Rnd} from "react-rnd";
 import {toPng} from "html-to-image";
 import {Menu,X,ArrowRight,Upload,RotateCcw,Undo2,Redo2,Trash2,Download,Phone,Mail,MapPin,MessageCircle,Plus,Edit3,Save,Search} from "lucide-react";
 import "./style.css";
-import logo from "./assets/arizona-logo.svg";
+
 
 const products=[
 {id:1,name:"Milano Cloud Sofa",cat:"Sofa",price:"₹85,000",size:"8' x 3'",material:"Premium Fabric + Wood",color:"Beige / Grey",desc:"A soft, contemporary luxury sofa designed for refined living spaces.",img:"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80"},
