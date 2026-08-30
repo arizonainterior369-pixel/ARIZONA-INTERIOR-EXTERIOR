@@ -22,166 +22,240 @@ function App() {
         </a>
       </nav>
 
-      {/* HERO */}
+      {/* HERO SECTION */}
       <section className="hero" id="home">
         <div className="hero-content">
-          <p className="small-title">ARIZONA INTERIOR EXTERIOR</p>
+          <p>ARIZONA INTERIOR EXTERIOR</p>
 
           <h1>
             Creating Spaces
             <br />
-            That Define <span>Luxury.</span>
+            That Define
+            <br />
+            <span>Luxury.</span>
           </h1>
 
-          <p className="hero-text">
+          <p>
             Premium Interior Design, Exterior Design and Customized Furniture
             crafted to transform your vision into extraordinary spaces.
           </p>
 
           <div className="hero-buttons">
-            <a href="#projects" className="primary-btn">
+            <a href="#projects" className="btn-primary">
               Explore Projects
             </a>
 
-            <a href="#contact" className="secondary-btn">
+            <a href="#contact" className="btn-secondary">
               Start Your Project →
             </a>
           </div>
         </div>
 
-        <div className="hero-box">
-          <div className="hero-image-text">
-            PREMIUM
-            <br />
-            DESIGN
-          </div>
+        <div className="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+            alt="Luxury Interior"
+          />
         </div>
       </section>
 
       {/* SERVICES */}
       <section className="services" id="services">
-        <div className="section-heading">
-          <p>WHAT WE DO</p>
-          <h2>Designed Around Your Lifestyle</h2>
-        </div>
+        <p className="section-tag">WHAT WE DO</p>
 
-        <div className="service-grid">
+        <h2 className="section-title">
+          Design Beyond Expectations
+        </h2>
+
+        <p className="section-description">
+          From concept to completion, we create thoughtfully designed spaces
+          with exceptional quality and attention to every detail.
+        </p>
+
+        <div className="services-grid">
+
           <div className="service-card">
-            <div className="number">01</div>
+            <p className="service-number">01</p>
             <h3>Interior Design</h3>
             <p>
-              Modern, elegant and functional interiors designed specifically
-              around your lifestyle.
+              Elegant and functional interiors designed specifically for your
+              lifestyle, space and vision.
             </p>
-            <span>Explore →</span>
           </div>
 
           <div className="service-card">
-            <div className="number">02</div>
+            <p className="service-number">02</p>
             <h3>Exterior Design</h3>
             <p>
-              Transforming buildings into timeless architectural statements
-              with premium exterior design.
+              Modern and impressive exterior solutions that give your property
+              a distinctive identity.
             </p>
-            <span>Explore →</span>
           </div>
 
           <div className="service-card">
-            <div className="number">03</div>
+            <p className="service-number">03</p>
             <h3>Customized Furniture</h3>
             <p>
-              Bespoke furniture designed with precision, quality materials and
-              exceptional craftsmanship.
+              Premium custom furniture designed with quality materials,
+              craftsmanship and timeless style.
             </p>
-            <span>Explore →</span>
           </div>
+
         </div>
       </section>
 
       {/* PROJECTS */}
       <section className="projects" id="projects">
-        <div className="section-heading">
-          <p>OUR PORTFOLIO</p>
-          <h2>Selected Projects</h2>
-        </div>
+        <p className="section-tag">OUR WORK</p>
+
+        <h2 className="section-title">
+          Selected Projects
+        </h2>
+
+        <p className="section-description">
+          Explore a selection of spaces designed and crafted with creativity,
+          precision and attention to detail.
+        </p>
 
         <div className="project-grid">
-          <div className="project-card project-one">
+
+          <div className="project-card">
+            <div className="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80"
+                alt="Modern Residence"
+              />
+            </div>
+
             <div className="project-info">
-              <p>RESIDENTIAL</p>
-              <h3>Modern Luxury Residence</h3>
+              <h3>Modern Residence</h3>
+              <p>Luxury Interior Design</p>
             </div>
           </div>
 
-          <div className="project-card project-two">
+          <div className="project-card">
+            <div className="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80"
+                alt="Premium Living"
+              />
+            </div>
+
             <div className="project-info">
-              <p>INTERIOR</p>
-              <h3>Contemporary Living</h3>
+              <h3>Premium Living</h3>
+              <p>Contemporary Interior</p>
             </div>
           </div>
 
-          <div className="project-card project-three">
+          <div className="project-card">
+            <div className="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80"
+                alt="Elegant Space"
+              />
+            </div>
+
             <div className="project-info">
-              <p>COMMERCIAL</p>
-              <h3>Premium Workspace</h3>
+              <h3>Elegant Space</h3>
+              <p>Customized Furniture</p>
             </div>
           </div>
+
         </div>
       </section>
 
       {/* ABOUT */}
       <section className="about" id="about">
-        <div className="about-left">
-          <p>ABOUT ARIZONA</p>
-          <h2>We Design More Than Spaces.</h2>
+
+        <div className="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1000&q=80"
+            alt="Arizona Interior"
+          />
         </div>
 
-        <div className="about-right">
+        <div className="about-content">
+          <p className="section-tag">ABOUT ARIZONA</p>
+
+          <h2>
+            Spaces Designed
+            <br />
+            For Living.
+          </h2>
+
           <p>
-            At Arizona Interior Exterior, we believe every space should tell a
-            story. Our team combines creativity, functionality and premium
-            craftsmanship to deliver interiors and exteriors that stand apart.
+            ARIZONA INTERIOR EXTERIOR is dedicated to creating premium spaces
+            where design, comfort and functionality come together.
+          </p>
+
+          <p>
+            Our approach combines creative design, quality materials and skilled
+            craftsmanship to deliver exceptional interiors, exteriors and
+            customized furniture solutions.
           </p>
 
           <div className="stats">
-            <div>
+
+            <div className="stat">
               <h3>100+</h3>
-              <p>Projects</p>
+              <p>Projects Completed</p>
             </div>
 
-            <div>
+            <div className="stat">
               <h3>10+</h3>
               <p>Years Experience</p>
             </div>
 
-            <div>
+            <div className="stat">
               <h3>100%</h3>
               <p>Quality Focus</p>
             </div>
+
           </div>
         </div>
+
       </section>
 
       {/* CONTACT */}
       <section className="contact" id="contact">
-        <p>LET'S CREATE SOMETHING EXCEPTIONAL</p>
-        <h2>Have a Project in Mind?</h2>
-        <a href="mailto:info@arizonainterior.com">
-          Let's Talk About It →
+
+        <p className="section-tag">LET'S CREATE SOMETHING EXTRAORDINARY</p>
+
+        <h2 className="section-title">
+          Let's Design Your
+          <br />
+          Dream Space.
+        </h2>
+
+        <p>
+          Have a project in mind? Let's discuss your ideas and create a space
+          that reflects your vision.
+        </p>
+
+        <a href="mailto:info@example.com" className="btn-primary">
+          Get in Touch
         </a>
+
       </section>
 
       {/* FOOTER */}
-      <footer>
-        <div>
-          <h2>ARIZONA</h2>
-          <p>INTERIOR • EXTERIOR • FURNITURE</p>
+      <footer className="footer">
+
+        <div className="footer-logo">
+          ARIZONA
         </div>
 
-        <p>© 2026 Arizona Interior Exterior. All Rights Reserved.</p>
+        <p>
+          © 2026 Arizona Interior Exterior. All Rights Reserved.
+        </p>
+
       </footer>
     </>
   );
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
