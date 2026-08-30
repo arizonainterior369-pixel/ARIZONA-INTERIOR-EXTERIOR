@@ -505,3 +505,24 @@ body {
 .hero h1 {
   color: #252525 !important;
 }
+/* FINAL LUXURY WARM BEIGE BACKGROUND */
+
+body {
+  background: #F4EFE6 !important;
+}
+
+.navbar {
+  background: #F7F2E9 !important;
+}
+
+.hero {
+  background:
+    linear-gradient(
+      90deg,
+      #F4EFE6 0%,
+      #F4EFE6 42%,
+      rgba(244, 239, 230, 0.88) 58%,
+      rgba(244, 239, 230, 0.25) 75%,
+      rgba(244, 239, 230, 0) 100%
+    ) !important;
+}
