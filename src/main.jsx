@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
-import logo from "../ARIZONA-LOGO-HD.jpeg";
+import logo from "./assets/ChatGPT Image Aug 30, 2026, 03_45_47 PM.png";
 function App() {
   return (
     <>
