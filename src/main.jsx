@@ -7,7 +7,9 @@ function App() {
     <>
       {/* NAVBAR */}
       <nav className="navbar">
-        <div className="logo">ARIZONA</div>
+        <div className="logo">
+  <img src="./assets/arizona-logo.svg" alt="Arizona Furniture" />
+</div>
 
         <div className="nav-links">
           <a href="#home">Home</a>
