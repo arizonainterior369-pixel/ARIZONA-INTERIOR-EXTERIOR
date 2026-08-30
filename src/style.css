@@ -9,7 +9,7 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background: #f7f5f0;
+  background: #f8F5EF;
   color: #252525;
   overflow-x: hidden;
 }
@@ -22,8 +22,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f7f5f0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: #f8f5EF;
+  border-bottom: 1px solid #E6DED1;
   position: sticky;
   top: 0;
   z-index: 1000;
