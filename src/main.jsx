@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
-
+import logo from "./assets/arizona-logo.svg";
 function App() {
   return (
     <>
