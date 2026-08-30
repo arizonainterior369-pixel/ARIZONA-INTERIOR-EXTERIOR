@@ -30,12 +30,15 @@ body {
 }
 
 .logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  letter-spacing: 3px;
-  font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
+.logo img {
+  width: 190px;
+  height: auto;
+  display: block;
+}
 .nav-links {
   display: flex;
   gap: 38px;
