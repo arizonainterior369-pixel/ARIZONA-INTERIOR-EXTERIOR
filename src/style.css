@@ -38,6 +38,7 @@ body {
   width: 210px;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 .nav-links {
   display: flex;
