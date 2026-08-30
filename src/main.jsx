@@ -1,14 +1,14 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
-import logo from "./assets/arizona-logo.svg";
+import logo from "../ARIZONA-LOGO-HD.jpeg";
 function App() {
   return (
     <>
       {/* NAVBAR */}
       <nav className="navbar">
         <div className="logo">
-  <img src="./assets/arizona-logo.svg" alt="Arizona Furniture" />
+  <img src={logo} alt="ARIZONA FURNITURE" />
 </div>
 
         <div className="nav-links">
