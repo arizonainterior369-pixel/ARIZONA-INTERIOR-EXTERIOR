@@ -480,3 +480,28 @@ body {
     padding: 70px 6%;
   }
 }
+/* ===== LUXURY WARM BEIGE THEME ===== */
+
+body {
+  background: #f4efe6;
+  color: #252525;
+}
+
+.navbar {
+  background: #f7f2e9 !important;
+  border-bottom: 1px solid #d9cdbb !important;
+}
+
+.hero {
+  background: linear-gradient(
+    90deg,
+    #f4efe6 0%,
+    #f7f3ec 45%,
+    rgba(244, 239, 230, 0.75) 60%,
+    rgba(244, 239, 230, 0.05) 100%
+  ) !important;
+}
+
+.hero h1 {
+  color: #252525 !important;
+}
