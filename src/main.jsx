@@ -191,10 +191,10 @@ function App() {
             </a>
 
             <a href="#bed-bath" className="category-card">
-              <img
-                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=85"
-                alt="Bedroom"
-              />
+             <img
+  src="/assets/bed-model-710.jpg"
+  alt="Bed Frame Model 710"
+/>
               <div>
                 <h3>BED &amp; BATH</h3>
                 <span>Explore Collection →</span>
