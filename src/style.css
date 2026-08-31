@@ -526,3 +526,29 @@ body {
       rgba(244, 239, 230, 0) 100%
     ) !important;
 }
+/* FINAL WHITE BACKGROUND - ARIZONA */
+
+body {
+  background: #ffffff !important;
+}
+
+.navbar {
+  background: #ffffff !important;
+}
+
+/* Hero background */
+.hero {
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffff 42%,
+    #faf8f4 58%,
+    rgba(255,255,255,0.55) 72%,
+    rgba(255,255,255,0) 100%
+  ) !important;
+}
+
+/* Keep hero text area clean white */
+.hero-content {
+  background: transparent !important;
+}
