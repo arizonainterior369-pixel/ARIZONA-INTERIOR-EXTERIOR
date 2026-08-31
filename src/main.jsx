@@ -2,7 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
 import logo from "./assets/ChatGPT Image Aug 30, 2026, 03_45_47 PM.png";
-
+import bedModel710 from "./assets/IMG_20260831_155052.jpg";
 function App() {
   return (
     <>
@@ -192,7 +192,7 @@ function App() {
 
             <a href="#bed-bath" className="category-card">
              <img
-  src="/assets/IMG_20260831_155052.jpg"
+  src={bedModel710}
   alt="Bed Frame Model 710"
 />
               <div>
