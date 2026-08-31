@@ -552,3 +552,82 @@ body {
 .hero-content {
   background: transparent !important;
 }
+/* ===== ARIZONA FINAL WHITE LUXURY THEME ===== */
+
+body {
+  background: #ffffff !important;
+  color: #252525 !important;
+}
+
+/* Navbar */
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e6e1d8 !important;
+}
+
+.nav-links a {
+  color: #252525 !important;
+}
+
+.nav-links a:hover {
+  color: #a97724 !important;
+}
+
+/* Hero - clean white background */
+.hero {
+  background: #ffffff !important;
+}
+
+/* Hero text */
+.hero-content {
+  background: #ffffff !important;
+}
+
+.hero-content > p:first-child {
+  color: #a97724 !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.hero h1 {
+  color: #252525 !important;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 500;
+}
+
+.hero h1 span {
+  color: #a97724 !important;
+}
+
+/* Description */
+.hero-content > p {
+  color: #666666;
+}
+
+/* Gold buttons */
+.btn-primary {
+  background: #a97724 !important;
+  border-color: #a97724 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover {
+  background: #8f641c !important;
+}
+
+/* Secondary button */
+.btn-secondary {
+  color: #252525 !important;
+  border-color: #a97724 !important;
+}
+
+/* Clean image */
+.hero img {
+  object-fit: cover;
+}
+
+/* Remove unwanted beige/gradient overlays */
+.hero::before,
+.hero::after {
+  background: none !important;
+}
