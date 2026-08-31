@@ -412,7 +412,7 @@ function App() {
           <div className="footer-column">
             <h3>CONTACT</h3>
             <p>Surat, Gujarat, India</p>
-            <p>+91 XXXXX XXXXX</p>
+            <p>+91 99795 33083</p>
             <p>info@arizonafurniture.in</p>
           </div>
 
